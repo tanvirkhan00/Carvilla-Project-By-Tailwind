@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>CarVilla</title>
+</head>
+<body>
+  <section class="welcome-hero h-[970px] bg-cover bg-center relative" style="background-image:linear-gradient(rgba(42,45,84,.60), rgba(42,45,84,.60)), url(/images/welcome-hero/welcome-banner.jpg);">
+    <div class="header flex justify-between h-[145px] py-10 px-[100px]">
+        <div class="header-left">
+            <h1 class="text-3xl text-lime-300 font-serif ">CARVILLA</h1>
+        </div>
+        <div class="header-right">
+            <ul class="flex">
+               <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>HOME</li></a>
+                <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>SERVICE</li></a>
+                <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>FEATURED CARS</li></a>
+                <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>NEW CARS</li></a>
+                <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>BRANDS</li></a>
+                <a class="mr-10 font-normal text-lg text-white hover:text-pink-500" href="#"><li>CONTACT</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="content w-full text-center h-[400px]  flex flex-col items-center justify-center px-[100px]">
+        <p class="text-white text-4xl font-bold">GET YOUR DESIRED CAR IN RESONABLE PRICE</p>
+        <P class="mt-5 text-white  w-[700px] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </P>
+        <div class="content-link mt-10">
+            <a class="px-10 py-5 bg-indigo-600 text-white font-semibold hover:bg-sky-800" href="#">Contact Us</a>
+        </div>
+    </div>
+    <div class="box mt-[200px] bg-slate-200 h-[310px] w-[1140px] mx-auto">
+        <div class="row flex justify-center items-center h-full ml-[80px]">
+           <div class="1st-option w-1/4 mr-10">
+                <div class="option-1 w-full">
+                    <p class="text-xl">Select Year</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full " name="" id="">
+                    <option value="default">Year</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    </select>
+                </div> 
+                <div class="option-2 mt-5">
+                    <p class="text-xl">Body Style</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full" name="" id="">
+                        <option  value="default">Style</option>
+                        <option value="seddan">Seddan</option>
+                        <option value="van">Van</option>
+                        <option value="roadster">Roadster</option>
+                    </select>
+                </div>
+           </div>
+           <div class="2nd-option w-1/4 mr-10
+           ">
+                <div class="option-1">
+                    <p class="text-xl">Select Make</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full" name="" id="">
+                    <option value="default">Make</option>
+                    <option value="2018">Tayota</option>
+                    <option value="2017">Holden</option>
+                    <option value="2016">Maecedes-benz.</option>
+                    </select>
+                </div> 
+                <div class="option-2 mt-5">
+                    <p class="text-xl">Car Condition</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full" name="" id="">
+                        <option  value="default">Conditon</option>
+                        <option value="seddan">Something</option>
+                        <option value="van">Something</option>
+                        <option value="roadster">Something</option>
+                    </select>
+                </div>
+            </div>
+            <div class="3st-option w-1/4 mr-10">
+                <div class="option-1">
+                    <p class="text-xl">Select Model</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full" name="" id="">
+                    <option value="default">Model</option>
+                    <option value="2018">Kia-Rio</option>
+                    <option value="2017">Mitsubishi</option>
+                    <option value="2016">Ford</option>
+                    </select>
+                </div> 
+                <div class="option-2 mt-5">
+                    <p class="text-xl">Select Price</p>
+                    <select class="px-5 py-4 bg-slate-100 text-slate-400 font-medium text-lg mt-3 w-full" name="" id="">
+                        <option value="default">Price</option>
+                        <option value="seddan">2,00,000</option>
+                        <option value="van">5,00,000</option>
+                        <option value="roadster">10,00,000</option>
+                    </select>
+                </div>
+            </div>
+            <div class="button w-1/4 ">
+                <a class="px-[50px] py-5 bg-cyan-300 font-semibold  hover:bg-cyan-600" href="#">Search</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Welcome Hero Section -->
+
+<section class="service_section mt-[200px] w-full  h-[410px]">
+    <div class="service-wrap flex text-center justify-center h-[400px] w-[1140px] mx-auto">
+
+        <div class="dealership w-1/3 mr-10  h-[400px] flex flex-col justify-center hover:bg-green-400" style="border: 1px solid black;">
+            <div class="icon">
+                <i class="fa-solid fa-car text-5xl "></i>
+            </div>
+            <div class="content mt-10">
+                <p class="text-xl font-semibold">Largest Dealership of Car</p>
+                <p class="mt-5 text-lg px-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+            </div>
+        </div>
+        <div class="repair w-1/3 mr-10 h-full flex flex-col justify-center hover:bg-green-400"  style="border: 1px solid black;">
+            <div class="icon">
+                <i class="fa-solid fa-cart-flatbed-suitcase text-5xl"></i>
+            </div>
+            <div class="content mt-10">
+                <p class="text-xl font-semibold">Unlimited Repair Warrenty</p>
+                <p class="mt-5 text-lg px-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+            </div>
+        </div>
+        <div class="support w-1/3  h-full flex flex-col justify-center hover:bg-green-400"  style="border: 1px solid black;">
+            <div class="icon">
+                <i class="fa-solid fa-car-on text-5xl"></i>
+            </div>
+            <div class="content mt-10">
+                <p class="text-xl font-semibold">Insurence Support</p>
+                <p class="mt-5 text-lg px-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Service Section -->
+
+<section class="new_cars mt-[60px] bg-slate-100 h-[500px] flex flex-col justify-center">
+  <div class="heading text-center">
+    <p class="text-lg">Cheakout the Latest Cars</p>
+    <h1 class="text-5xl font-semibold mt-3">Newest Cars</h1>
+  </div>
+  <div class="cars-wrap flex mt-[60px]">
+    <div class="left w-1/2">
+      <div class="image-box">
+        <img src="/images/new-cars-model/ncm3.png" alt="">
+      </div>
+    </div>
+    <div class="right w-1/2 ml-[60px]">
+      <div class="content pr-[100px]">
+        <h3 class="font-medium text-4xl">Ferrari 488 Superfast</h3>
+        <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cum perferendis quidem praesentium nulla modi culpa. Quod quo neque sint tempora. Vel dolorum possimus officia nesciunt debitis, reiciendis illum non!</p>
+        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, aperiam!</p>
+        <div class="button mt-10">
+          <a class="px-8 py-4 bg-cyan-700 text-white font-medium hover:bg-sky-800" href="#">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End New Car Section -->
+
+<section class="featured-cars_section mt-[60px]">
+    <div class="featured-cars-wrap">
+        <div class="heading text-center ">
+            <p class=" text-lg">Checkout Featured Cars</p>
+            <h3 class="font-semibold text-4xl mt-3">Featured Cars</h3>
+        </div>
+        <div class="cars-model mt-[50px] h-[1050px]">
+            <div class="row w-full flex px-[100px]">
+                <div class="bmw-6 w-1/4 h-[480px] ">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc1.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">BMW 6- Series Gran Coupe</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$89,396</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc2.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">Chevrolet Camaro WMV20</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$66,575</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc3.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">Lamborghini V520</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$125,250</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc4.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">Audi A3 Sedan</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$95,500</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row w-full flex px-[100px] mt-10">
+                <div class="bmw-6 w-1/4 h-[480px] ">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc5.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">Infiniti Z5</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$36,850</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc6.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">Porsche 718 Cayman</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$48,500</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc7.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">BMW 8-Series Coupe</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$56,000</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+                <div class="bmw-6 w-1/4 h-[480px] ml-5">
+                    <div class="img-box h-[220px] flex justify-center items-center border border-slate-300">
+                        <img class="w-[200px] h-[107px]" src="/images/featured-cars/fc8.png" alt="">  
+                    </div>
+                    <div class="model  border border-slate-300 h-[65px] flex flex-col justify-center text-slate-600">
+                        <p class="ml-3">Model:2017 3100Mi 240HP</p>
+                        <p class="ml-3">Automatic</p>
+                    </div>
+                    <div class="details mt-5">
+                        <h1 class="font-medium text-lg text-slate-700">BMW Xseries-6</h1>
+                        <p class="mt-1 font-medium text-lg text-slate-700">$75,800</p>
+                        <p class="mt-2 text-slate-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Feautured-Cars -->
+
+<section class="clients_section mt-[60px] h-[700px] w-full flex flex-col justify-center bg-slate-100">
+    <div class="heading text-center">
+        <h1 class="font-bold text-4xl text-gray-700">What Our Clients Say</h1>
+    </div>
+    <div class="clients-report mt-[60px] px-[100px]">
+        <div class="row flex">
+            <div class="john-doe w-1/3 h-[400px]  text-center flex items-center flex-col justify-center border border-slate-400 hover:bg-emerald-300">
+                <div class="img-box">
+                    <img src="/images/clients/c1.png" alt="">
+                </div>
+                <div class="content mt-5 px-10">
+                    <p class="font-medium text-slate-500 text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos aut distinctio maiores error sint est! Velit aperiam, rem accusantium aliquam quo nesciunt, eaque, quam sit et hic sapiente at numquam!</p>
+                </div>
+                <div class="contact mt-10 font-bold text-xl text-gray-600">
+                    <p>John Doe</p>
+                    <p class="">Washington</p>
+                </div>
+            </div>
+            <div class="romi-rain w-1/3 h-[400px]  text-center flex items-center flex-col justify-center border border-slate-400 ml-5 hover:bg-emerald-300">
+                <div class="img-box">
+                    <img src="/images/clients/c2.png" alt="">
+                </div>
+                <div class="content mt-5 px-10">
+                    <p class="font-medium text-slate-500 text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos aut distinctio maiores error sint est! Velit aperiam, rem accusantium aliquam quo nesciunt, eaque, quam sit et hic sapiente at numquam!</p>
+                </div>
+                <div class="contact mt-10 font-bold text-xl text-gray-600">
+                    <p>Romi Rain</p>
+                    <p class="">London</p>
+                </div>
+            </div>
+            <div class="thomas-lili w-1/3 h-[400px]  text-center flex items-center flex-col justify-center border border-slate-400 ml-5 hover:bg-emerald-300">
+                <div class="img-box">
+                    <img src="/images/clients/c3.png" alt="">
+                </div>
+                <div class="content mt-5 px-10">
+                    <p class="font-medium text-slate-500 text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos aut distinctio maiores error sint est! Velit aperiam, rem accusantium aliquam quo nesciunt, eaque, quam sit et hic sapiente at numquam!</p>
+                </div>
+                <div class="contact mt-10 font-bold text-xl text-gray-600">
+                    <p>Thomas Lili</p>
+                    <p class="">New York</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Clinte Section -->
+
+<section class="brand_section mt-[60px]">
+    <div class="brands h-[320px] w-full px-[120px]">
+        <div class="row flex items-center justify-between h-full">
+            <div class="img-box ">
+                <a href="#">
+                    <img class="" src="/images/brand/br1.png" alt="">
+                </a>
+            </div>
+            <div class="img-box">
+                <a href="#">
+                    <img class="" src="/images/brand/br2.png" alt="">
+                </a>
+            </div>
+            <div class="img-box">
+                <a href="#">
+                    <img class=" " src="/images/brand/br3.png" alt="">
+                </a>
+            </div>
+            <div class="img-box">
+                <a href="#">
+                    <img class=" " src="/images/brand/br4.png" alt="">
+                </a>
+            </div>
+            <div class="img-box">
+                <a href="#">
+                    <img class="" src="/images/brand/br5.png" alt="">
+                </a>
+            </div>    
+            <div class="img-box">
+                <a  href="#">
+                    <img class=" " src="/images/brand/br6.png" alt="">
+                 </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Brand Section -->
+
+<section class="footer_section mt-[60px] bg-slate-900 h-[550px]">
+    <div class="footer-wrap">
+        <div class="row flex h-[480px] justify-center pt-[100px] text-slate-300">
+            <div class="carvilla w-[270px] mr-5">
+                <a class="font-semibold text-3xl font-serif text-white" href="#">CARVILLA</a>
+                <div class="details mt-8">
+                    <p>Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.</p>
+                    <p class="mt-5">kmtanvir1111@gmail.com</p>
+                    <p>+880 1959948542</p>
+                </div>
+            </div>
+            <div class="about-devloon w-[260px]">
+                <h1 class="font-semibold text-xl font-serif text-white">ABOUT DEVLOON</h1>
+                 <div class="details flex flex-col mt-8">
+                    <a class="hover:text-neutral-600" href="#">About Us</a>
+                    <a class="mt-2 hover:text-neutral-600 " href="#">Career</a>
+                    <a class="mt-2 hover:text-neutral-600 " href="#">Terms Of Service</a>
+                    <a class="mt-2 hover:text-neutral-600 " href="#">Privacy Policy</a>
+                 </div>   
+            </div>
+            <div class="brands w-[200px]">
+                <h1 class="font-semibold text-xl font-serif text-white" >TOP BRANDS</h1>
+                <div class="details flex flex-col mt-8">
+                    <a class=" hover:text-neutral-600" href="#">BMW</a>
+                    <a class="mt-2 hover:text-neutral-600" href="#">Lamborghini</a>
+                    <a class="mt-2 hover:text-neutral-600" href="#">Camaro</a>
+                    <a class="mt-2 hover:text-neutral-600" href="#">Audi</a>
+                    <a class="mt-2 hover:text-neutral-600" href="#">Infinity</a>
+                    <a class="mt-2 hover:text-neutral-600" href="#">Nissan</a>
+                </div>
+            </div>
+            <div class="newsletter w-[260px]">
+                <h1 class="font-semibold text-xl font-serif text-white">NEWS LETTER</h1>
+                <div class="content mt-8">
+                    <p>Subscribe to get latest news update and informations</p>
+                    <input class="mt-5 w-full px-4 py-2 bg-slate-700" type="text" placeholder="Add Email">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row flex items-center justify-between h-[65px] text-slate-300 border-t border-slate-400 mx-[170px]">
+            <div class="left flex">
+                &copy;
+                <p> Copyright.Designed And Developed By Themesine</p>
+            </div>
+            <div class="right">
+              <div class="footer-social-link">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="ml-4" href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a class="ml-4" href="#">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="ml-4" href="#">
+                    <i class="fa fa-pinterest-p"></i>
+                </a>
+                <a class="ml-4" href="#">
+                    <i class="fa fa-behance"></i>
+                </a>
+              </div>  
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://kit.fontawesome.com/862c32b35b.js" crossorigin="anonymous"></script>
+</body>
+</html>
